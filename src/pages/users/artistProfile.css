@@ -1,0 +1,268 @@
+.artist-profile-detail-div {
+  display: flex;
+}
+
+.artist-profile-detail-div h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.artist-profile-detail-div p {
+  font-size: 13px;
+}
+
+.artist-profile-detail-div .ratedIcon {
+  width: 20px;
+  height: 20px;
+}
+.artist-profile-detail-div .img {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ff5050;
+  border-radius: 50%;
+}
+
+.artist-card-header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.artist-card-header-info button {
+  background: #404040;
+  border-radius: 6.51893px;
+  color: white;
+}
+
+.artist-timeline-table {
+  display: flex;
+  align-items: flex-start;
+}
+
+.artist-table th {
+  font-size: 12px;
+}
+
+.colour {
+  color: red;
+}
+
+.artist-profile-services-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* timeline */
+.timeline-artist-location {
+  margin-left: 15px;
+  border-left: 2px solid #ccc;
+  padding: 0 20px 0 30px;
+  position: relative;
+}
+
+.timeline-artist-location p {
+  font-size: 8px;
+}
+.timeline-artist-location h5 {
+  font-size: 10px;
+  font-weight: bold;
+}
+.timeline-artist-location::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  border: 3px solid #ddd;
+  position: absolute;
+  left: -3%;
+  top: 88%;
+}
+
+.timeline-artist-location i {
+  position: absolute;
+  left: -2.2%;
+  top: -8%;
+  font-size: 22px;
+  color: #ff5050;
+}
+
+/* customer reviews */
+.artist-customer-reviews {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 310px;
+}
+
+.artist-profile-services-div p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.5568px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #7a7a7a;
+}
+
+/* available slot detail */
+/* Month header */
+.month {
+  padding: 1px 15px;
+  width: 100%;
+  background: #f6f6f6;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 2px;
+  background: #1abc9c;
+  color: white !important;
+}
+ul {
+  list-style-type: none;
+}
+.available-slot {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.available-slot p {
+  font-weight: 600;
+  font-size: 14.5568px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #bbb7b7;
+  background: #f6f6f6;
+  width: 80px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-align: center;
+}
+.available-slot .active {
+  background: #313131;
+  color: white;
+}
+/* available slot detail end */
+
+/* other detail */
+.other__details h5 {
+  font-size: 13px;
+  font-weight: bold;
+}
+.other__details p {
+  font-size: 10px;
+  color: #7a7a7a;
+}
+
+/* job done */
+
+.job-post-btn .approve {
+  background: #68cb06;
+  border-radius: 6.88282px;
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.3891px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 5.51px 11.5px;
+}
+
+/* portfolio section start */
+.artist__Protfolio h3 {
+  font-size: 17.55px;
+  font-weight: bold;
+}
+.artist-portfolio-slider-item {
+  padding: 10px;
+  background: #f6f6f6;
+  margin: 15px;
+  border-radius: 5px;
+  width: 240.66px;
+  height: 360.59px;
+  overflow: hidden;
+}
+
+.artist-portfolio-slider-item img {
+  width: 200px;
+  height: 150px;
+}
+
+.artist-portfolio-slider-item h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12.2973px;
+  line-height: 24px;
+
+  color: #313131;
+}
+.artist-portfolio-slider-item p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 21px;
+
+  color: rgba(49, 49, 49, 0.49);
+}
+.artist-portfolio-slider-item-info {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,57 @@
+.loginForm {
+
+}
+
+.formContent {
+    background: #ebebeb;
+    padding: 2.0em;
+    border-radius: 1em;
+}
+
+.btn-login {
+    background: #404040;
+    border-radius: 4.9538px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.3845px;
+    line-height: 19px;
+    padding: 12px 0px 12px 0px;
+    width: 100%;
+}
+
+.btn-model {
+    background: #404040;
+    border-radius: 4.9538px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.3845px;
+    line-height: 19px;
+    padding: 8px;
+}
+
+.dPadding {
+    margin-top: 2.0em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-message {
+    margin-top: 1em;
+    color: red;
+}
+
+.d-flex {
+    display: flex !important;
+    height: 100vh;
+}
+
+.center {
+    margin: 0 auto;
+    align-self: center;
+}

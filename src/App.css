@@ -1,0 +1,21 @@
+.container-flex {
+  display: flex;
+  margin-top: 10px;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background: #e5e5e5;
+}
+
+.app th {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.app td {
+  font-size: 10px;
+  color: #7a7a7a;
+}
